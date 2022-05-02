@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Cards(props){
     const {content, price, price1, price2, rating, category, buton1, buton2,id,inc}=props;
-    console.log(props);
+    
     return(
         <div>
             {category &&
